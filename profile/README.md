@@ -4,7 +4,7 @@
   <img src="URL_TO_YOUR_PROJECT_LOGO" alt="Project Logo" width="140px">
 
   <!-- Project Title -->
-  <h1><b>Teman Wisata</b></h1>
+  <h1><b>Teman-Wisata Capstone</b></h1>
 
   <!-- Project Tagline -->
   <h3>

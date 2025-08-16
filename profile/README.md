@@ -141,9 +141,9 @@ This project was made possible by our dedicated team.
 
 | Name           | Role               | GitHub Profile                                | LinkedIn Profile                                    |
 | :------------- | :----------------- | :-------------------------------------------- | :-------------------------------------------------- |
-| **Alex Chen**  | Backend & DevOps   | [**@achen**](https://github.com/username)   | [**/in/alexchen**](https://linkedin.com/in/username)   |
-| **Brenda Okafor**| Full-Stack & PM    | [**@bokafor**](https://github.com/username) | [**/in/brendaokafor**](https://linkedin.com/in/username) |
-| **Carlos Ruiz**| Frontend & UI/UX   | [**@cruiz**](https://github.com/username)   | [**/in/carlosruiz**](https://linkedin.com/in/username)   |
+| **Putu Gede Pradana Adnyana**  | Machine Learning   | [**@pradanaadn**](https://github.com/pradanaadn)   | [**/in/pradanaadn**](https://www.linkedin.com/in/pradanaadn/)   |
+| **Achmad Rifki Raihan Syah Bagja** | Machine Learning   | [**@achmadrrb**](https://github.com/achmadrrb) | [**/in/achmadrrb**](https://www.linkedin.com/in/achmad-rifki-raihansyah-bagja/) |
+| **Ahmad Hufron**| DevOps   | [**@ahmadhufron**](https://github.com/ahmadhufron)   | [**/in/ahmadhufron**](https://www.linkedin.com/in/ahmadhufron/)   |
 
 <br>
 

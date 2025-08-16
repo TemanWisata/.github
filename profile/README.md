@@ -142,7 +142,7 @@ Our system is designed as a microservices architecture, containerized and orches
 - **Observability:** A comprehensive monitoring and logging stack is implemented using **Prometheus, Grafana, Loki, and Promtail** to provide deep insights into system health, metrics, and logs.
 
 <div align="center">
-  <img src="./topologi-v4.png" alt="Architecture Diagram" width="600px">
+  <img src="./topologi-v5.png" alt="Architecture Diagram" width="600px">
   <p><em>Our System Architecture Diagram</em></p>
 </div>
 

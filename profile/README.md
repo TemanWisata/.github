@@ -52,12 +52,23 @@ Every great project starts with a problem. Here's ours:
 
 Here's what our project can do. We focused on creating a seamless user experience through these core functionalities:
 
+
 - **🎯 Personalized Recommendations:** After rating a few destinations, the system uses collaborative and content-based filtering to generate a personalized list of similar locations that are likely to appeal to the user.
 
 - **📍 Rate Destinations:** Users can rate tourist attractions, which helps the system learn their preferences and improve the quality of future recommendations.
 - **🏆 Discover Top Places:** See a curated list of the top-rated destinations and popular attractions by province to get inspiration for your next trip.
 - **⚡ Fast & Responsive:** Implemented caching for the recommendation models to ensure users receive suggestions quickly and efficiently.
 - **🔐 Secure Authentication:** A complete authentication system allows users to sign up, log in, and manage their own interaction data securely.
+
+
+### 🔍 System Overview
+
+<div align="center">
+  <img src="./DEPLOYCAMP.drawio.png" alt="Teman Wisata System Overview" width="700px">
+  <p><em>How our recommendation system works</em></p>
+</div>
+
+<br>
 
 ## 🚀 Live Demo & Walkthrough
 
@@ -131,7 +142,7 @@ Our system is designed as a microservices architecture, containerized and orches
 - **Observability:** A comprehensive monitoring and logging stack is implemented using **Prometheus, Grafana, Loki, and Promtail** to provide deep insights into system health, metrics, and logs.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TemanWisata/teman-wisata/main/docs/architecture.png" alt="Architecture Diagram" width="600px">
+  <img src="./topologi-v4.png" alt="Architecture Diagram" width="600px">
   <p><em>Our System Architecture Diagram</em></p>
 </div>
 

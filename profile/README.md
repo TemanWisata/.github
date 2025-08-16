@@ -52,7 +52,8 @@ Every great project starts with a problem. Here's ours:
 
 Here's what our project can do. We focused on creating a seamless user experience through these core functionalities:
 
-- ** personalized Recommendations:** After rating a few destinations, the system uses collaborative and content-based filtering to generate a personalized list of similar locations that are likely to appeal to the user.
+- **🎯 Personalized Recommendations:** After rating a few destinations, the system uses collaborative and content-based filtering to generate a personalized list of similar locations that are likely to appeal to the user.
+
 - **📍 Rate Destinations:** Users can rate tourist attractions, which helps the system learn their preferences and improve the quality of future recommendations.
 - **🏆 Discover Top Places:** See a curated list of the top-rated destinations and popular attractions by province to get inspiration for your next trip.
 - **⚡ Fast & Responsive:** Implemented caching for the recommendation models to ensure users receive suggestions quickly and efficiently.
@@ -69,7 +70,7 @@ Seeing is believing. Check out our project in action!
   <p>
     <a href="https://app.teman-wisata.fun/"><b>Launch the Live Demo »</b></a>
     <br> • <br>
-    <a href="https://www.loom.com/share/33008c2a3b834458807d9c57d770c14b"><b>Watch our demo video »</b></a>
+    <a href="https://www.loom.com/share/cdd6c48daee044bd881ce7eb637770b5?t=52&sid=8773bf8d-214b-4633-b9cc-d3cb542e8a23"><b>Watch our demo video »</b></a>
   </p>
 </div>
 
@@ -80,7 +81,7 @@ Seeing is believing. Check out our project in action!
   <img src="./Screenshot_20250816_160836.png" alt="Rating Page" width="45%">
   <img src="./Screenshot_20250816_160856.png" alt="Rating Page" width="45%">
   <br>
-  <em>Left: Personalized Recommendations | Right: Rating Destinations</em>
+
 </div>
 
 <br>
@@ -156,7 +157,8 @@ cd teman-wisata
 # Create a .env file based on the provided examples.
 
 # 5. Start the application (using Docker Compose for local dev)
-docker-compose up --build
+make docker-build
+make docker-run
 ```
 
 <br>

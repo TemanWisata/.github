@@ -1,21 +1,21 @@
 <div align="center">
 
   <!-- Project Logo -->
-  <img src="URL_TO_YOUR_PROJECT_LOGO" alt="Project Logo" width="140px">
+  <img src="./logo.png" alt="Project Logo" width="140px">
 
   <!-- Project Title -->
-  <h1><b>Teman-Wisata Capstone K-21 2025</b></h1>
+  <h1><b>Teman Wisata: Your Personalized Indonesian Travel Companion</b></h1>
 
   <!-- Project Tagline -->
   <h3>
-    A short, powerful tagline that explains your project's mission.
+    Stop scrolling, start exploring. Discover your dream destinations in Indonesia with personalized recommendations.
   </h3>
 
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Capstone%20Project-Cornell%20Tech%202024-blue?style=for-the-badge" alt="Capstone Badge">
+    <img src="https://img.shields.io/badge/Capstone%20Project-Deploycamp%202025-blue?style=for-the-badge" alt="Capstone Badge">
     <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Project Status">
-    <a href="LINK_TO_YOUR_DEMO">
+    <a href="https://app.teman-wisata.fun/">
       <img src="https://img.shields.io/badge/Live-Demo-purple?style=for-the-badge&logo=vercel" alt="Live Demo">
     </a>
   </p>
@@ -42,9 +42,9 @@
 
 Every great project starts with a problem. Here's ours:
 
-**The Problem:** In a few sentences, describe the challenge, pain point, or gap you identified. Who is affected by this? Why does it matter? Be specific and relatable. *For example: "Coordinating schedules for university project teams is chaotic. Students waste countless hours in back-and-forth emails, leading to frustration and missed deadlines."*
+**The Problem:** The modern traveler faces a paradox of choice—an overwhelming amount of information when planning a trip. Sifting through countless blogs, reviews, and travel sites is time-consuming and often leads to visiting the same popular, overcrowded places. This "information overload" can diminish the travel experience and prevents tourists from discovering hidden gems that match their unique interests.
 
-**Our Solution:** This is your elevator pitch. How does your project solve this problem in a novel or effective way? Highlight the core value proposition. *For example: "We built an intelligent scheduling assistant that syncs with users' calendars, identifies optimal meeting times using a custom algorithm, and facilitates group polling—all within a single, intuitive dashboard."*
+**Our Solution:** "Teman Wisata" (meaning "Travel Buddy") is a recommender system designed to solve this problem for tourism in Indonesia. By leveraging machine learning, our platform provides highly individualized travel recommendations. We analyze user preferences and interactions to suggest attractions across five major Indonesian cities: Jakarta, Yogyakarta, Semarang, Bandung, and Surabaya. Our goal is to simplify trip planning, enhance the traveler's journey, and promote a diverse range of local attractions.
 
 <br>
 
@@ -52,61 +52,87 @@ Every great project starts with a problem. Here's ours:
 
 Here's what our project can do. We focused on creating a seamless user experience through these core functionalities:
 
-*   **🤖 Smart Scheduling:** Describe the feature and its benefit. *e.g., "Leverages the Google Calendar API to automatically find and suggest conflict-free meeting slots for all group members."*
-*   **📊 Interactive Polling:** *e.g., "Allows users to vote on suggested times, providing a clear and democratic way to finalize a meeting."*
-*   **🔔 Real-time Notifications:** *e.g., "Integrates with a notification service to keep all members updated on confirmed meetings and changes."*
-*   **📈 Project Dashboard:** *e.g., "A centralized view of all upcoming deadlines, meetings, and project milestones."*
-
-<br>
+- ** personalized Recommendations:** After rating a few destinations, the system uses collaborative and content-based filtering to generate a personalized list of similar locations that are likely to appeal to the user.
+- **📍 Rate Destinations:** Users can rate tourist attractions, which helps the system learn their preferences and improve the quality of future recommendations.
+- **🏆 Discover Top Places:** See a curated list of the top-rated destinations and popular attractions by province to get inspiration for your next trip.
+- **⚡ Fast & Responsive:** Implemented caching for the recommendation models to ensure users receive suggestions quickly and efficiently.
+- **🔐 Secure Authentication:** A complete authentication system allows users to sign up, log in, and manage their own interaction data securely.
 
 ## 🚀 Live Demo & Walkthrough
 
 Seeing is believing. Check out our project in action!
 
 <div align="center">
-  <a href="LINK_TO_YOUR_LIVE_DEMO_URL" title="Click to view the live application">
-    <img src="URL_TO_A_HIGH_QUALITY_GIF_OR_SCREENSHOT_OF_YOUR_APP" alt="Project Demo GIF" width="700px">
+  <a href="https://app.teman-wisata.fun/" title="Click to view the live application">
+    
   </a>
   <p>
-    <a href="LINK_TO_YOUR_LIVE_DEMO_URL"><b>Launch the Live Demo »</b></a>
+    <a href="https://app.teman-wisata.fun/"><b>Launch the Live Demo »</b></a>
     <br> • <br>
-    <a href="LINK_TO_YOUR_VIDEO_WALKTHROUGH_ON_YOUTUBE/LOOM"><b>Watch our 3-minute Video Walkthrough »</b></a>
+    <a href="https://www.loom.com/share/33008c2a3b834458807d9c57d770c14b"><b>Watch our demo video »</b></a>
   </p>
+</div>
+
+### 📱 Application Screenshots
+
+<div align="center">
+  <img src="./Screenshot_20250816_160559.png" alt="Recommendations Page" width="45%">
+  <img src="./Screenshot_20250816_160836.png" alt="Rating Page" width="45%">
+  <img src="./Screenshot_20250816_160856.png" alt="Rating Page" width="45%">
+  <br>
+  <em>Left: Personalized Recommendations | Right: Rating Destinations</em>
 </div>
 
 <br>
 
 ## 🛠️ Technology & Architecture
 
-This project was built with a modern and scalable tech stack. Our goal was to ensure performance, reliability, and a great developer experience.
+This project was built with a modern, scalable, and resilient MLOps stack. Our goal was to ensure high performance, reliability, and robust observability from development to production.
 
 #### Core Technologies:
 
-<!-- Find icons at: https://devicon.dev/ or https://shields.io/ -->
+🛠️ Technology & Architecture
+This project was built with a modern, scalable, and resilient MLOps stack. Our goal was to ensure high performance, reliability, and robust observability from development to production.
+Core Technologies:
+
+##### Backend & MLOps:
+
 <p align="center">
-  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
-  <a href="#"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>
-  <a href="#"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"></a>
-  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"></a>
-  <a href="#"><img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"></a>
+<a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
+<a href="#"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"></a>
+<a href="#"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"></a>
+<a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"></a>
+<a href="#"><img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"></a>
+<a href="#"><img alt="Redis" src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white"/></a>
+<a href="#"><img alt="MLflow" src="https://img.shields.io/badge/mlflow-%230194E2.svg?&style=for-the-badge&logo=mlflow&logoColor=white"/></a>
+<a href="#"><img alt="Grafana" src="https://img.shields.io/badge/grafana-%23F46800.svg?&style=for-the-badge&logo=grafana&logoColor=white"/></a>
+</p>
+
+##### Frontend:
+
+<p align="center">
+<a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"></a>
+<a href="#"><img alt="Vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"></a>
+<a href="#"><img alt="Alpine.js" src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=black"></a>
+<a href="#"><img alt="Tailwind CSS" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
+<a href="#"><img alt="DaisyUI" src="https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white"></a>
 </p>
 
 #### Architecture Overview:
 
-This provides insight into your system design. You can briefly describe the flow or embed a simple diagram.
+Our system is designed as a microservices architecture, containerized and orchestrated with Kubernetes (K3s). The infrastructure is deployed on a single VM, prioritizing resource efficiency while maintaining full compatibility and scalability.
 
-*   **Frontend:** A responsive single-page application built with **React** and **TypeScript**, styled with **Tailwind CSS**, and deployed on **Vercel**.
-*   **Backend:** A RESTful API powered by **Node.js** and **Express**, responsible for business logic and data processing.
-*   **Database:** A **PostgreSQL** database for persistent data storage, managed with the **Prisma ORM**.
-*   **Deployment:** The entire application is containerized using **Docker** and deployed on **Google Cloud Run**, ensuring scalability and easy management.
+- **Frontend:** Built with **TypeScript, Alpine.js, Vite, Handlebars, Tailwind, and DaisyUI** for a responsive, fast, and efficient user interface.
+- **Backend:** A high-performance RESTful API powered by **FastAPI** (Python), handling all business logic, data processing, and interactions with the ML models.
+- **Database & Cache:** We use **Supabase** (PostgreSQL) as our primary database for relational data and **Redis** for high-speed caching of frequent queries and recommendation results.
+- **Machine Learning:** Models are trained using the **RecTools** library. The entire ML lifecycle, including experiment tracking and model storage, is managed with **MLflow** and **MinIO**.
+- **Deployment & Orchestration:** The application is containerized with **Containerd** and deployed on a lightweight **K3s** Kubernetes cluster running on **Ubuntu 22.04 LTS**. Networking is managed by **Flannel** and exposed securely via **NGINX Ingress Controller** and **Cloudflare**.
+- **Observability:** A comprehensive monitoring and logging stack is implemented using **Prometheus, Grafana, Loki, and Promtail** to provide deep insights into system health, metrics, and logs.
 
-<!-- Optional: Uncomment and replace with a link to your architecture diagram -->
-<!--
 <div align="center">
-  <img src="URL_TO_ARCHITECTURE_DIAGRAM" alt="Architecture Diagram" width="600px">
+  <img src="https://raw.githubusercontent.com/TemanWisata/teman-wisata/main/docs/architecture.png" alt="Architecture Diagram" width="600px">
   <p><em>Our System Architecture Diagram</em></p>
 </div>
--->
 
 <br>
 
@@ -114,23 +140,23 @@ This provides insight into your system design. You can briefly describe the flow
 
 Want to get your hands dirty? Follow these steps to set up the project on your local machine. For more detail, please visit the main repository.
 
-➡️ **[Explore the Main Codebase](LINK_TO_YOUR_PRIMARY_PROJECT_REPO)**
+➡️ **[Explore the Main Codebase](https://github.com/TemanWisata/teman-wisata)**
 
 ```bash
 # 1. Clone the main repository
-git clone https://github.com/your-org/your-main-repo.git
+git clone https://github.com/TemanWisata/teman-wisata.git
 
 # 2. Navigate into the project directory
-cd your-main-repo
+cd teman-wisata
 
-# 3. Install dependencies (for both client and server)
-npm install
+# 3. Install dependencies (requires Python and Node.js)
+# Follow the detailed setup instructions in the repository's README.
 
 # 4. Set up your environment variables
-cp .env.example .env
+# Create a .env file based on the provided examples.
 
-# 5. Start the application
-npm run dev
+# 5. Start the application (using Docker Compose for local dev)
+docker-compose up --build
 ```
 
 <br>
@@ -139,11 +165,11 @@ npm run dev
 
 This project was made possible by our dedicated team.
 
-| Name           | Role               | GitHub Profile                                | LinkedIn Profile                                    |
-| :------------- | :----------------- | :-------------------------------------------- | :-------------------------------------------------- |
-| **Putu Gede Pradana Adnyana**  | Machine Learning   | [**@pradanaadn**](https://github.com/pradanaadn)   | [**/in/pradanaadn**](https://www.linkedin.com/in/pradanaadn/)   |
-| **Achmad Rifki Raihan Syah Bagja** | Machine Learning   | [**@achmadrrb**](https://github.com/achmadrrb) | [**/in/achmadrrb**](https://www.linkedin.com/in/achmad-rifki-raihansyah-bagja/) |
-| **Ahmad Hufron**| DevOps   | [**@ahmadhufron**](https://github.com/ahmadhufron)   | [**/in/ahmadhufron**](https://www.linkedin.com/in/ahmadhufron/)   |
+| Name                               | Role            | GitHub Profile                                     | LinkedIn Profile                                                                                    |
+| :--------------------------------- | :-------------- | :------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| **Putu Gede Pradana Adnyana**      | ML Engineer     | [**@pradanaadn**](https://github.com/pradanaadn)   | [**/in/pradanaadn**](https://www.linkedin.com/in/pradanaadn/)                                       |
+| **Achmad Rifki Raihan Syah Bagja** | ML Engineer     | [**@achmadrrb**](https://github.com/achmadrrb)     | [**/in/achmad-rifki-raihansyah-bagja**](https://www.linkedin.com/in/achmad-rifki-raihansyah-bagja/) |
+| **Ahmad Hufron**                   | DevOps Engineer | [**@ahmadhufron**](https://github.com/ahmadhufron) | [**/in/ahmadhufron**](https://www.linkedin.com/in/ahmadhufron/)                                     |
 
 <br>
 
@@ -151,12 +177,15 @@ This project was made possible by our dedicated team.
 
 We're proud of what we've built, but we're not done yet! Here are some features and improvements we're planning for the future:
 
-*   [ ] **Mobile App:** Develop native iOS and Android applications.
-*   [ ] **Theme Customization:** Allow users to personalize the look and feel of their dashboard.
-*   [ ] **Integration with more services:** Add support for Outlook Calendar and other productivity tools.
+- [ ] **Enable Autoscaling:** Adopt autoscaling with HPA or KEDA to dynamically adjust resources based on traffic load.
+- [ ] **Expand to a Multi-Node HA Cluster:** Migrate from a single-node VM to a high-availability cluster to improve fault tolerance and scalability.
+- [ ] **Implement a CI/CD Pipeline:** Automate the build, test, and deployment process to streamline development and ensure code quality.
+- [ ] **Enable Distributed MinIO:** Configure MinIO in a distributed mode for more resilient and scalable object storage.
+- [ ] **Add Distributed Tracing:** Integrate Tempo or Jaeger to get a comprehensive view of requests as they travel through our microservices.
+- [ ] **Introduce a Service Mesh:** Implement a service mesh like Kiali to enhance observability, traffic management, and security between services.
 
 ---
 
 <div align="center">
-  <small>Made with ❤️ for the [Your University/Hackathon Name] Capstone Project 2024</small>
+  <small>Made with ❤️ for the Deploycamp 2025</small>
 </div>

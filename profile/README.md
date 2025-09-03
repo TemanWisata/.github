@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Capstone%20Project-Deploycamp%202025-blue?style=for-the-badge" alt="Capstone Badge">
     <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Project Status">
     <a href="https://app.teman-wisata.fun/">
-      <img src="https://img.shields.io/badge/Live-Demo-purple?style=for-the-badge&logo=vercel" alt="Live Demo">
+      <img src="https://img.shields.io/badge/Down-Demo-purple?style=for-the-badge" alt="Down Demo">
     </a>
   </p>
   <br>
